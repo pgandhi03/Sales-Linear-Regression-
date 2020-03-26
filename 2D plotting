@@ -1,3 +1,14 @@
 I know 2 ways to plot in 2-D
 -Using matplotlib
 -Using seaborn
+
+
+-Using matplotlib
+
+import matplotlib.pyplot as plt
+TV = data[['TV']].values
+radio = data[['radio']].values
+y= 0.04 * TV + 0.19 * radio + 2.75
+
+plt.plot(xtrain1,ytrain1)
+plt.show()
