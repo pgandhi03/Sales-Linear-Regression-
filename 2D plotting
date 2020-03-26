@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 TV = data[['TV']].values
 radio = data[['radio']].values
 y= 0.04 * TV + 0.19 * radio + 2.75
+#Here 0.04 and 0.19 are the coefficients we got while 2.75 is the intercept
 
 plt.plot(xtrain1,ytrain1)
 plt.show()
