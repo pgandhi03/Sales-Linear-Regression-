@@ -17,3 +17,5 @@ plt.show()
 -Using seaborn
 
 import seaborn as sns
+%matplotlib inline
+sns.pairplot(data,x_vars=['TV','radio'],y_vars='sales',size=7,aspect=0.7, kind='reg')
