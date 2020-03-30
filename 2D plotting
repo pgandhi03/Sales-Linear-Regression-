@@ -13,3 +13,7 @@ y= 0.04 * TV + 0.19 * radio + 2.75
 
 plt.plot(xtrain1,ytrain1)
 plt.show()
+
+-Using seaborn
+
+import seaborn as sns
